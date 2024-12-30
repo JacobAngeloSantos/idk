@@ -1,0 +1,41 @@
+body {
+  font-family: monospace;
+  background-color: #282c34;
+  color: #61dafb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#vm-container {
+  width: 80%;
+  max-width: 600px;
+  background: black;
+  border: 2px solid #61dafb;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#vm-display {
+  padding: 10px;
+}
+
+#output {
+  height: 300px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  margin-bottom: 10px;
+  border: 1px solid #61dafb;
+  padding: 5px;
+}
+
+#input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #20232a;
+  color: #61dafb;
+  font-size: 1rem;
+}
